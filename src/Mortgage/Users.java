@@ -2,14 +2,7 @@ package Mortgage;
 
 public class Users {
 
-    /*
-        User Class, HousePrices Class ının ebeveyn classidir.
-        her bir User in almasi gereken attribute lar private olmalıdır ve su sekildedir:
-        String olanlar -> username, whichCondtiton, houseType          +
-        int olanlar -> roomCount, downPayment, longTerm                +
-        ve son olarakta StatesTax cinsinden bir StatesTax olmalıdır:   +
-        "private StatexTax statesTax;"
-     */
+
 private String username;
 private String whicCondition;
 private String houseType;
@@ -17,8 +10,6 @@ private int roomcount;
 private int downPayment;
 private int longTerm;
 private StatesTax statesTax;
-    /*        Bir constructor methodu oluşturup, tüm attribute lar constructorda gelmeli ve daha sonra sınıfın kendi attributelarına
-    eşitlenmelidir.     */
 
     public Users() {    }
 
@@ -61,6 +52,5 @@ private StatesTax statesTax;
     }
 
 
-// Son olarak ise tüm attributelar icin sadece getter methodlar oluşmalıdır.
 }
 
